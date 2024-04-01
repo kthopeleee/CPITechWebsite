@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+section#home {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section#analytics {
+    padding: 2rem;
+}
+
+/* Add more styles as needed for other elements */
